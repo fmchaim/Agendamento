@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   resources :doctors
   resources :appointments
   resources :calendars
-  resources :admins, only: [:create, :update, :destroy]
 
 end
